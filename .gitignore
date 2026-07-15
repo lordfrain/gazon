@@ -1,0 +1,12 @@
+# биометрические данные реальных людей — не должны попадать в git
+face_id/known_faces/*
+!face_id/known_faces/.gitkeep
+voice_id/known_voices/*
+!voice_id/known_voices/.gitkeep
+
+# скачиваемая модель Vosk (45+ МБ, ставится отдельной командой из PROGRESS.md)
+voice_id/vosk-model-small-ru-0.22/
+
+# Python
+__pycache__/
+*.pyc

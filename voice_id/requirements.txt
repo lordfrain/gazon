@@ -1,0 +1,5 @@
+vosk
+resemblyzer
+sounddevice
+soundfile
+numpy
